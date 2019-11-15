@@ -14,7 +14,7 @@ le varie piattaforme e' disponibile al seguente indirizzo:
 eseguire da shell (su windows eseguire da cmd.exe):
 
 ```bash
-git config --global alias.lesson_code "log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s' --abbrev-commit --reverse"
+git config --global alias.lesson-code "log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s' --abbrev-commit --reverse"
 ```
 
 ## Struttura
@@ -46,7 +46,7 @@ git checkout lesson-1
 
 per avere la lista del codice una volta effettuato il checkout nel branch relativo alla lezione, digitare:
 ```bash
-git lesson_code
+git lesson-code
 ```
 esempio di output:
 ```
