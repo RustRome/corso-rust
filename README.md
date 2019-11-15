@@ -44,10 +44,21 @@ esempio per poter andare alla lezione 1:
 git checkout lesson-1
 ```
 
-per avere la lista del codice suiddiviso per le varie lezioni, digitare:
+per avere la lista del codice una volta effettuato il checkout nel branch relativo alla lezione, digitare:
 ```bash
 git lesson_code
 ```
 esempio di output:
 ```
+1e2f9df - Introduzione al linguaggio di programmazione Rust.
+9a3f2a5 - (HEAD -> lesson-1, origin/lesson-1) Variable declaration examples
+```
+
+Per accedere al codice della sezione a cui si e' interessati, digitare:
+`git checkout `**hash** dove **hash** corrisponde alla prima colonna dell' output sopra indicato.
+
+
+esempio, per andare alla sezione dedicata agli esempi delle dichiarazioni delle variabili (Variable declaration examples), digitare:
+```bash
+git checkout 9a3f2a5
 ```
