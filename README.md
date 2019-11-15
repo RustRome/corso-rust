@@ -51,7 +51,7 @@ git lesson-code
 esempio di output:
 ```
 1e2f9df - Introduzione al linguaggio di programmazione Rust.
-9a3f2a5 - (HEAD -> lesson-1, origin/lesson-1) Variable declaration examples
+9a3f2a5 - Variable declaration examples
 ```
 
 Per accedere al codice della sezione a cui si e' interessati, digitare:
