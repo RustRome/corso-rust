@@ -23,8 +23,7 @@ Il corso e' strutturato in lezioni a cui sono associati differenti git branch
 nominati secondo la seguente dicitura:  
 `lesson-`**n** dove **n** e' il numero della lezione conrrispondente
 
-per ottenere la lista delle lezioni con il relativo hash e il titolo della lezione
-diigitare dalla propria shell (su windows eseguire da cmd.exe):
+per ottenere la lista delle lezioni digitare dalla propria shell (su windows eseguire da cmd.exe):
 
 ```bash
 git branch -l
@@ -32,7 +31,10 @@ git branch -l
 esempio di output:
 ```
 * lesson-1
-* lesson-2 
+* lesson-2
+* lesson-3
+* lesson-4
+...
 ```
 
 per poter navigare il codice relativo alla lezione a cui si e' interessati, digitare:
@@ -52,10 +54,11 @@ esempio di output:
 ```
 1e2f9df - Introduzione al linguaggio di programmazione Rust.
 9a3f2a5 - Variable declaration examples
+...
 ```
 
 Per accedere al codice della sezione a cui si e' interessati, digitare:
-`git checkout `**hash** dove **hash** corrisponde alla prima colonna dell' output sopra indicato.
+`git checkout `**hash** dove **hash** corrisponde alla prima colonna di colore rosso dell' output ottenuto con il comando sopra indicato.
 
 
 esempio, per andare alla sezione dedicata agli esempi delle dichiarazioni delle variabili (Variable declaration examples), digitare:
