@@ -14,7 +14,7 @@ le varie piattaforme e' disponibile al seguente indirizzo:
 eseguire da shell (su windows eseguire da cmd.exe):
 
 ```bash
-git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s' --abbrev-commit"
+git config --global alias.lesson_code "log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s' --abbrev-commit --reverse"
 ```
 
 ## Struttura
@@ -27,11 +27,11 @@ per ottenere la lista delle lezioni con il relativo hash e il titolo della lezio
 diigitare dalla propria shell (su windows eseguire da cmd.exe):
 
 ```bash
-git branch -l -v
+git branch -l
 ```
 esempio di output:
 ```
-* lesson-1 e4fdd42 Introduction to rust
+* lesson-1
 * lesson-2 
 ```
 
@@ -46,7 +46,7 @@ git checkout lesson-1
 
 per avere la lista del codice suiddiviso per le varie lezioni, digitare:
 ```bash
-git lg
+git lesson_code
 ```
 esempio di output:
 ```
