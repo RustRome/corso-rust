@@ -2,7 +2,7 @@
 
 [programma](https://github.com/RustRome/corso-rust/blob/master/Programma.md)
 
-## prerequisiti
+## Prerequisiti
 
 Per poter usurfruire del codice fornito durante il corso e' neccessario
 aver installato git, la documentazione su come installare il tool git per
