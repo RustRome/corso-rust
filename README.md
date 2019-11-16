@@ -9,9 +9,26 @@ aver installato git, la documentazione su come installare il tool git per
 le varie piattaforme e' disponibile al seguente indirizzo:
 [installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-### Configurazione git per navigazione repository corso
+### Download codice del corso
 
 eseguire da shell (su windows eseguire da cmd.exe):
+```bash
+git clone  https://github.com/RustRome/corso-rust.git
+```
+
+### Configurazione git per navigazione repository corso
+
+posizionarsi all'interno della directory del corso:
+eseguire da shell (linux, unix, *BSD, Macosx):
+```bash
+cd corso-rust
+```
+eseguire da cmd.exe (windows):
+```
+dir corso-rust
+```
+
+una volta all'interno della directory del corso eseguire da shell (su windows eseguire da cmd.exe):
 
 ```bash
 git config alias.list "log --color --pretty=format:'%Cred%h%Creset - %s' --abbrev-commit --reverse"
