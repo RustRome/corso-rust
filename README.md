@@ -19,7 +19,9 @@ git clone  https://github.com/RustRome/corso-rust.git
 ### Configurazione git per navigazione repository corso
 
 posizionarsi all'interno della directory del corso:
+
 eseguire da shell (linux, unix, *BSD, Macosx):
+
 ```bash
 cd corso-rust
 ```
