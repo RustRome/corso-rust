@@ -16,8 +16,6 @@ eseguire da shell (su windows eseguire da cmd.exe):
 git clone  https://github.com/RustRome/corso-rust.git
 ```
 
-### Configurazione git per navigazione repository corso
-
 posizionarsi all'interno della directory del corso:
 
 eseguire da shell (linux, unix, *BSD, Macosx):
@@ -28,12 +26,6 @@ cd corso-rust
 eseguire da cmd.exe (windows):
 ```
 dir corso-rust
-```
-
-una volta all'interno della directory del corso eseguire da shell (su windows eseguire da cmd.exe):
-
-```bash
-git config alias.list "log --color --pretty=format:'%Cred%h%Creset - %s' --abbrev-commit --reverse"
 ```
 
 ## Struttura
