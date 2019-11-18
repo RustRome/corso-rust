@@ -4,75 +4,28 @@
 
 ## Prerequisiti
 
-Per poter usurfruire del codice fornito durante il corso e' neccessario
-aver installato git, la documentazione su come installare il tool git per
-le varie piattaforme e' disponibile al seguente indirizzo:
-[installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+Per poter usurfruire del codice fornito durante il corso e' neccessaria
+una connessione internet e aver installato sul proprio computer un browser
+web.
 
-### Download codice del corso
+## Struttura (Web based) _raccomandato_
 
-eseguire da shell (su windows eseguire da cmd.exe):
-```bash
-git clone  https://github.com/RustRome/corso-rust.git
-```
+Il codice e gli esercizi forniti con il corso sono resi disponibili tramite
+la piattaforma [Rust Playground](https://play.rust-lang.org/).
 
-posizionarsi all'interno della directory del corso:
+La struttura del repository e' suddivisa in directory, ognuna contenente un
+file README.md (formattato in markdown), contenente i link con gli esercizi
+e snippets di codice riguardanti gli argomenti trattati durante la lezione
+stessa.
+Ad ogni directory e' associata una differente lezione ed e' stata nominata 
+secondo la seguente formattazione:
 
-eseguire da shell (linux, unix, *BSD, Macosx):
+<span style="font-weight:bold">lesson-</span><span style="color:red">n</span> dove <span style="color:red">n</span> e' il numero della lezione corrispondente.
 
-```bash
-cd corso-rust
-```
-eseguire da cmd.exe (windows):
-```
-dir corso-rust
-```
+Esempio:
 
-## Struttura
+La directory `lesson-1` contiene il README.md con i link associati agli argomenti trattati nella lezione 1.
 
-Il corso e' strutturato in lezioni a cui sono associati differenti git branch
-nominati secondo la seguente dicitura:  
-`lesson-`**n** dove **n** e' il numero della lezione conrrispondente
+Qui in seguito per convenienza viene fornita una lista di link, aggiornata prima di ogni lezione, dei documenti riguardanti le differenti lezioni:
 
-per ottenere la lista delle lezioni digitare dalla propria shell (su windows eseguire da cmd.exe):
-
-```bash
-git branch -l
-```
-esempio di output:
-```
-* lesson-1
-* lesson-2
-* lesson-3
-* lesson-4
-...
-```
-
-per poter navigare il codice relativo alla lezione a cui si e' interessati, digitare:
-
-`git checkout lesson-`**n** dove **n** e' il numero della lezione a cui si e' interessati.
-
-esempio per poter andare alla lezione 1:
-```bash
-git checkout lesson-1
-```
-
-per avere la lista del codice una volta effettuato il checkout nel branch relativo alla lezione, digitare:
-```bash
-git list
-```
-esempio di output:
-```
-1e2f9df - Introduzione al linguaggio di programmazione Rust.
-9a3f2a5 - Variable declaration examples
-...
-```
-
-Per accedere al codice della sezione a cui si e' interessati, digitare:
-`git checkout `**hash** dove **hash** corrisponde alla prima colonna di colore rosso dell' output ottenuto con il comando sopra indicato.
-
-
-esempio, per andare alla sezione dedicata agli esempi delle dichiarazioni delle variabili (Variable declaration examples), digitare:
-```bash
-git checkout 9a3f2a5
-```
+[Lezione 1](/lesson-1/README.md)
