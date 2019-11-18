@@ -20,7 +20,7 @@ stessa.
 Ad ogni directory e' associata una differente lezione ed e' stata nominata 
 secondo la seguente formattazione:
 
-<span style="font-weight:bold">lesson-</span><span style="color:red">n</span> dove <span style="color:red">n</span> e' il numero della lezione corrispondente.
+*lesson-*_n_ dove _n_ e' il numero della lezione corrispondente.
 
 Esempio:
 
