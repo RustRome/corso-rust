@@ -1,0 +1,2 @@
+[alias]
+	list = log --pretty=format:'%Cred%h%Creset - %s' --abbrev-commit --date=relative --reverse
