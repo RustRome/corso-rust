@@ -11,14 +11,18 @@ web.
 ## Struttura (Web based) _raccomandato_
 
 Il codice e gli esercizi forniti con il corso sono resi disponibili tramite
-la piattaforma [Rust Playground](https://play.rust-lang.org/).
+la piattaforma [Rust Playground](https://play.rust-lang.org/), ripresi dagli ottimi
+[Rustlings](https://github.com/rust-lang/rustlings/tree/rustlings-1) versione web,
+riarrangiati in base alle lezioni ed argomenti trattati.
 
 La struttura del repository e' suddivisa in directory, ognuna contenente un
 file README.md (formattato in markdown), contenente i link con gli esercizi
 e snippets di codice riguardanti gli argomenti trattati durante la lezione
 stessa.
+
 Ad ogni directory e' associata una differente lezione ed e' stata nominata 
 secondo la seguente formattazione:
+
 
 **lesson-**_n_ dove _n_ e' il numero della lezione corrispondente.
 
