@@ -32,4 +32,5 @@ La directory `lesson-1` contiene il README.md con i link associati agli argoment
 
 Qui in seguito per convenienza viene fornita una lista di link, aggiornata prima di ogni lezione, dei documenti riguardanti le differenti lezioni:
 
-[Lezione 1](/lesson-1/README.md)
+- [Lezione 1](/lesson-1/README.md)
+- [Lezione 2](/lesson-2/README.md)
