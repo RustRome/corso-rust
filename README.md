@@ -34,3 +34,4 @@ Qui in seguito per convenienza viene fornita una lista di link, aggiornata prima
 
 - [Lezione 1](/lesson-1/README.md)
 - [Lezione 2](/lesson-2/README.md)
+- [Lezione 3](/lesson-3/README.md)
