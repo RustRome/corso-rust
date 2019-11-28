@@ -23,23 +23,23 @@ Il corso si svolgera' su un totale di 10 Lezioni da due ore ciascuna.
   - Match
   - Pattern matching
 - Lezione 4
+  - Tipi Generici
+  - Traits
+  - Lifetime
+- Lezione 5
   - Libreria Standard
   - Strutturazione del codice
   - Pacchetti
   - Moduli
   - Crates
-- Lezione 5
+- Lezione 6
   - Collezioni
   - HashMap
   - Vettori
-- Lezione 6
+- Lezione 7
   - Gestione degli errori
   - Smart Pointers
   - Testing
-- Lezione 7
-  - Tipi Generici
-  - Traits
-  - Lifetime
 - Lezione 8
   - Concorrenza
   - Threads
