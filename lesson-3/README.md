@@ -1,6 +1,6 @@
 
 
-# Esercizi lezione 2
+# Esercizi lezione 3
 
 
 - Structs
