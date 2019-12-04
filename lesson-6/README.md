@@ -1,6 +1,6 @@
 
 
-# Esercizi lezione 5
+# Esercizi lezione 6
 
 
 - Vectors
