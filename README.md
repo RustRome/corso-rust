@@ -36,3 +36,5 @@ Qui in seguito per convenienza viene fornita una lista di link, aggiornata prima
 - [Lezione 2](/lesson-2/README.md)
 - [Lezione 3](/lesson-3/README.md)
 - [Lezione 4](/lesson-4/README.md)
+- [Lezione 5](/lesson-5/README.md)
+- [Lezione 6](/lesson-6/README.md)
