@@ -38,3 +38,4 @@ Qui in seguito per convenienza viene fornita una lista di link, aggiornata prima
 - [Lezione 4](/lesson-4/README.md)
 - [Lezione 5](/lesson-5/README.md)
 - [Lezione 6](/lesson-6/README.md)
+- [Lezione 7](/lesson-7/README.md)
